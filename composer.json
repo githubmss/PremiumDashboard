@@ -1,5 +1,5 @@
 {
-  "name": "mmsbuilder/premium
+  "name": "mmsbuilder/premium",
   "description": "Connector for app",
   "require": {
     "php": "~7.0.0|~7.1|~7.1.2"
