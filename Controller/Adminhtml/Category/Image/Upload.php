@@ -79,7 +79,7 @@ class Upload extends \Magento\Backend\App\Action
      */
     protected function _isAllowed()
     {
-        return $this->_authorization->isAllowed('Magentomobileshop_Premium::category');
+        return $this->_authorization->isAllowed('Mmsbuilder_Premium::category');
     }
  
     /**
