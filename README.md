@@ -17,7 +17,7 @@ Mmsbuilder is a fully functional mobile native application(iOS/Android) for the 
 Run the following command in Magento 2 root folder:
 
 ```
-composer require mmsbuilder/connector dev-master
+composer require mmsbuilder/premium
 php bin/magento setup:di:compile
 php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy
@@ -25,17 +25,8 @@ sudo chmod  0777 -R  var/*
 sudo chmod  0777 -R  generated/*
 sudo chmod  0777 -R  pub/static/*
 ```
-It will install module in vendor directory with name mmsbuilder/connector
+It will install module in vendor directory with name mmsbuilder/premium
 
-## 3. Features with App integration
-
-    Display Featured Products
-    Display Top Products
-    Display Recent viewed Products
-    User-friendly interface.
-    Fully compatible with Magento 2.1 above versions
-    Supports multiple stores.
-    Supports multiple languages.
 
 
 
